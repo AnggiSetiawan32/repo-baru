@@ -40,7 +40,7 @@ class ViewLeaveRequest extends ViewRecord
     }
 }
 
-class LeaveRequestResource extends Resource
+class LeaveRequestResource extends Resource 
 {
     protected static ?string $model = LeaveRequest::class;
 
